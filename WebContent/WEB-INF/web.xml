@@ -9,4 +9,21 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>CalculaEApresentaDadosCalculadosDoImpostoDeRenda</servlet-name>
+  <servlet-class>Controle.CalculaEApresentaDadosCalculadosDoImpostoDeRenda</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>CalculaEApresentaDadosCalculadosDoImpostoDeRenda</servlet-name>
+  <url-pattern>/CalculaEApresentaDadosCalculadosDoImpostoDeRenda</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  <servlet-name>RecebeDadosParaCalcularValorDoImpostoDeRenda</servlet-name>
+  <url-pattern>/RecebeDadosParaCalcularValorDoImpostoDeRenda</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>
